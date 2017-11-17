@@ -1,0 +1,33 @@
+{
+  "name": "gcp-bigquery-nodejs-test",
+  "version": "1.0.0",
+  "description": "BigQueryをNode.jsで叩く",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "ts": "ts-node",
+    "start": "npm run ts index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ovrmrw/gcp-bigquery-nodejs-test.git"
+  },
+  "keywords": [],
+  "author": "ovrmrw",
+  "bugs": {
+    "url": "https://github.com/ovrmrw/gcp-bigquery-nodejs-test/issues"
+  },
+  "homepage": "https://github.com/ovrmrw/gcp-bigquery-nodejs-test#readme",
+  "devDependencies": {
+    "@types/lodash": "^4.14.85",
+    "@types/node": "^8.0.53",
+    "ts-node": "^3.3.0",
+    "tslint": "^5.8.0",
+    "typescript": "^2.6.1"
+  },
+  "dependencies": {
+    "@google-cloud/bigquery": "^0.11.0",
+    "lodash": "^4.17.4",
+    "rxjs": "^5.5.2"
+  }
+}
